@@ -1,0 +1,3 @@
+"C:\CLion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\OpenMPHT.dir/objects.a
+C:\MinGw\MinGw\mingw32\bin\ar.exe cr CMakeFiles\OpenMPHT.dir/objects.a @CMakeFiles\OpenMPHT.dir\objects1.rsp
+C:\MinGw\MinGw\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\OpenMPHT.dir/objects.a -Wl,--no-whole-archive  -o OpenMPHT.exe -Wl,--out-implib,libOpenMPHT.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenMPHT.dir\linklibs.rsp

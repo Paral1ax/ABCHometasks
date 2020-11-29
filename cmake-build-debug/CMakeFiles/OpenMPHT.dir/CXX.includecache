@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CLion/OpenMPHT/main.cpp
+iostream
+-
+vector
+-
+set
+-
+cmath
+-
+omp.h
+C:/CLion/OpenMPHT/omp.h
+fstream
+C:/CLion/OpenMPHT/fstream
+
